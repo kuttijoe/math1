@@ -1,0 +1,96 @@
+<!doctype html>
+  <html>
+    <head>
+	  <title>object</title>
+	  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	</head>
+  <body>
+  <script>
+       
+     let time=new Date();
+	 let date=(time.getHours());
+	 if(date<=3){
+	     console.log("mid night")
+	 }
+	 else if(date<=11){
+	 console.log("morning")
+	 }
+	 else if(date<=15){
+	 console.log("after noon")
+	 }
+	 else if(date<=18){
+	 console.log("evening")
+	 }
+	 else if(date<=23){
+	 console.log("night")
+	 }
+	 else{
+	 console.log("none")
+	 }
+	 
+	 
+	
+	let datum=new Date();
+	let dates=datum.setTime(prompt("enter the time"));
+	
+	
+	 if(dates<=3){
+	     console.log("mid night")
+	 }
+	 else if(dates<=11){
+	 console.log("morning")
+	 }
+	 else if(dates<=15){
+	 console.log("after noon")
+	 }
+	 else if(dates<=18){
+	 console.log("evening")
+	 }
+	 else if(dates<=23){
+	 console.log("night")
+	 }
+	 else{
+	 console.log("none")
+	 }
+	 
+	 
+	 let month=new Date();
+	 let mon=(month.getMonth());
+	 
+	 if(mon<=3){
+	     console.log("spring")
+	 }
+	 else if(mon<=7){
+	 console.log("summer")
+	 }
+	 else if(mon<=11){
+	 console.log("winder")
+	 }	 
+	 else{
+	 console.log("none")
+	 }
+	 
+	 
+	 let m=prompt("enter the month");
+	 let monthh=new Date(m);
+	 let mont=monthh.getMonth();
+	 
+	 if(mont<=3){
+	     console.log("spring")
+	 }
+	 else if(mont<=7){
+	 console.log("summer")
+	 }
+	 else if(mont<=11){
+	 console.log("winder")
+	 }	 
+	 else{
+	 console.log("none")
+	 }
+	 
+	 
+	 
+	 
+  </script>
+</body>
+</html>
